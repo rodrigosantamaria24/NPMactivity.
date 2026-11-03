@@ -23,16 +23,18 @@ function App() {
           </p>
         </div>
         <button
-          type="button"
-          className="counter"
-          onClick={confetti({
-          particleCount: 150,
-          spread: 80,
-          origin: { y: 0.6 }
-        })}
-        >
-          Count is {count}
-        </button>
+            type="button"
+            className="counter"
+            onClick={() => {
+              confetti({
+                particleCount: 150,
+                spread: 80,
+                origin: { y: 0.6 }
+              });
+            }}
+          >
+            Lanzar Confetti
+          </button>
       </section>
 
       <div className="ticks"></div>
