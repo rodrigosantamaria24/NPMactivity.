@@ -1,16 +1,16 @@
-# React + Vite
+## Aqui esta la captura del confetti solo.
+![](./Capturitas/reactconfettiED.png)
+## Aqui esta la captura del boton confitero.
+![](./Capturitas/boton-deñ-confetti.png)
+## Aqui tienes la captura del PlanetScene.
+![](./Capturitas/PLANETSCENEed.png)
+## Aqui tienes la captura de todo junto con merge.
+![](./Capturitas/mergedetodojunto.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Si la carpeta node_modules/ está excluida, ¿borrar una dependencia hace alguna acción sobre el repositorio? ¿Cuál?
 
-Currently, two official plugins are available:
+>Sí, borrar una dependencia si que hace acciones sobre el repositorio. Aunque la carpeta node_modules/ esté excluida en el .gitignore y no se suba, lo que pasa es que se actualizan y modifican los archivos package.json y package-lock.json. Como Git sí rastrea estos archivos de configuración, detecta que la librería ya ha sido eliminada y te aparecen los cambios en el git status listos para hacerles commit y subirlos al remoto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Aqui tienes el link de mi page de github.
+>https://rodrigosantamaria24.github.io/Actividad-web-npm/
